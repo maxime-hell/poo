@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1639059159 source:c:\users\sc50660\desktop\cblocks\poo\personnage.cpp
+	"Personnage.h"
+	<string>
+
+1639059999 source:c:\users\sc50660\desktop\cblocks\poo\main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1639059159 c:\users\sc50660\desktop\cblocks\poo\personnage.h
+	<string>
+
