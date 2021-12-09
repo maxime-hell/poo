@@ -71,7 +71,7 @@ void Personnage::changerArme(string nomNouvelleArme, int degatsNouvelleArme)
     m_degatsArme = degatsNouvelleArme;
 }
 
-bool Personnage::estVivant()
+bool Personnage::estVivant()  //On pourrais  metre const car elle ne modifie pas l'objet
 {
     return m_vie > 0;   //Si m_vie est superiteur à 0 renvoie true, sinon renvoie false
 }
