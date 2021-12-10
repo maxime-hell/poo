@@ -1,9 +1,9 @@
 #include "Personnage.h"
-#include <string>
 using namespace std;
 /*
     Le fichier source . cpp utilise les header de son meme nom et peut prendre std;
-
+    De plus, #include "Personnage.h" permet de ne pas rajouter #include <iostream> et <string>
+    cair ils sont deja compris dans Personnage.h
 
     On initialise les constructeur ici et on les implémentes avec ses attributs
     On initialise toutes les méthodes et leurs corp
@@ -28,8 +28,8 @@ Personnage::Personnage(string nomArme, int degatsArme)
 {
     m_vie = 100;
     m_mana = 100;
-    m_nomArme = nomArme;
-    m_degatsArme = degatsArme;
+    m_arme(nomArme, degatsArme)
+        //L'attribut m_arme prend les parametres nomArme et degatsArme qui sont en parametre du constructeur personage
 }
 
 Personnage::Personnage(int vie, int mana)

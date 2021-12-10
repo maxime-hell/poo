@@ -8,6 +8,12 @@
 	<string>
 	"Personnage.h"
 
-1639059159 c:\users\sc50660\desktop\cblocks\poo\personnage.h
+1639148416 c:\users\sc50660\desktop\cblocks\poo\personnage.h
+	"Arme.h"
+	<iostream>
+	<string>
+
+1639148416 c:\users\sc50660\desktop\cblocks\poo\arme.h
+	<iostream>
 	<string>
 

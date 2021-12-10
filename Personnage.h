@@ -1,5 +1,9 @@
 #ifndef DEF_PERSONNAGE
 #define DEF_PERSONNAGE
+//Permet de compiler les parties du code dans certains endroit du programme
+#include "Arme.h"
+//Permet d'utiliser des objet de type Arme
+#include <iostream>
 #include <string>
 /*
     On ne met pas la diréctive using namespace std car il a des effet nefaste dans les headers
@@ -47,8 +51,12 @@ class Personnage
 
     int m_vie;
     int m_mana;
-    std::string m_nomArme;
-    int m_degatsArme;
+    Arme m_arme;
+/*
+    La classe perssonage à donc un attribut m_arme de la classe Arme
+    on l'a intialisé avec so constructeur par défaut, ses parametres de bases sont donc
+    m_nom = "Epee rouille"; m_degats = 10;
+*/
 };
 
 #endif // DEF_PERSONNAGE
