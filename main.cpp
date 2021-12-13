@@ -29,5 +29,9 @@ int main()
     goliath.changerArme("Double hache", 40);
     goliath.attaquer(david);
 
+    cout << "David" << endl;
+    david.afficherEtat();
+    cout << endl << "Goliath" << endl;
+    goliath.afficherEtat();
     return 0;
 }

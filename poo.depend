@@ -1,19 +1,21 @@
 # depslib dependency file v1.0
-1639059159 source:c:\users\sc50660\desktop\cblocks\poo\personnage.cpp
+1639407338 source:c:\users\sc50660\desktop\cblocks\poo\personnage.cpp
 	"Personnage.h"
-	<string>
 
-1639059999 source:c:\users\sc50660\desktop\cblocks\poo\main.cpp
+1639391506 source:c:\users\sc50660\desktop\cblocks\poo\main.cpp
 	<iostream>
 	<string>
 	"Personnage.h"
 
-1639148416 c:\users\sc50660\desktop\cblocks\poo\personnage.h
+1639382920 c:\users\sc50660\desktop\cblocks\poo\personnage.h
 	"Arme.h"
 	<iostream>
 	<string>
 
-1639148416 c:\users\sc50660\desktop\cblocks\poo\arme.h
+1639381662 c:\users\sc50660\desktop\cblocks\poo\arme.h
 	<iostream>
 	<string>
+
+1639382453 source:c:\users\sc50660\desktop\cblocks\poo\arme.cpp
+	"Arme.h"
 
