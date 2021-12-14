@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1639407338 source:c:\users\sc50660\desktop\cblocks\poo\personnage.cpp
+1639466376 source:c:\users\sc50660\desktop\cblocks\poo\personnage.cpp
 	"Personnage.h"
 
-1639391506 source:c:\users\sc50660\desktop\cblocks\poo\main.cpp
+1639466336 source:c:\users\sc50660\desktop\cblocks\poo\main.cpp
 	<iostream>
 	<string>
 	"Personnage.h"
 
-1639382920 c:\users\sc50660\desktop\cblocks\poo\personnage.h
+1639470223 c:\users\sc50660\desktop\cblocks\poo\personnage.h
 	"Arme.h"
 	<iostream>
 	<string>

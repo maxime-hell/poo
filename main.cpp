@@ -33,5 +33,33 @@ int main()
     david.afficherEtat();
     cout << endl << "Goliath" << endl;
     goliath.afficherEtat();
+
+    david.boirPotion(20);
+    david.changerArme("Sabre du destin", 35);
+    david.attaquer(goliath);
+
+    cout << endl << "David" << endl;
+    david.afficherEtat();
+    cout << endl << "Goliath" << endl;
+    goliath.afficherEtat();
+
+    goliath.boirPotion(50);
+    david.attaquer(goliath);
+    goliath.attaquer(david);
+    david.attaquer(goliath);
+
+    cout << endl << "David" << endl;
+    david.afficherEtat();
+    cout << endl << "Goliath" << endl;
+    goliath.afficherEtat();
+
+    goliath.attaquer(david);
+    david.attaquer(goliath);
+
+    cout << endl << "David" << endl;
+    david.afficherEtat();
+    cout << endl << "Goliath" << endl;
+    goliath.afficherEtat();
+
     return 0;
 }

@@ -59,9 +59,9 @@ void Personnage::boirPotion(int quantitePotion)
 {
     m_vie += quantitePotion;    //Ajoute à m_vie la quantie de vie relative a quantitepotion
 
-    if (m_vie > 100)            //Evite d'avoir une vie superieur à la vie max du personnage
+    if (m_vie > 200)            //Evite d'avoir une vie superieur à la vie max du personnage
     {
-        m_vie = 100;
+        m_vie = 200;
     }
 }
 
