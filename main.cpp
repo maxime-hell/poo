@@ -14,52 +14,47 @@ using namespace std;
 */
 int main()
 {
-    Personnage david(150, 150), goliath("Epee aiguise", 20);
+    Personnage david("David", 150, 150), goliath("Goliath", "Epee Aiguise", 20);
     /*
         Creation de 2 objet/instance type personnage, goliath est initialisé avec un constructeur
         surchargé(avec des parametres), on lui donne donc les valeurs dites en suplément.
         Si on met en parametre du constructeur par defaut une istance déja initialisé,
         celle prendra les parametres de l'instance mis en parametre du constructeur
     */
+
+    cout << endl; david.afficherEtat(); cout << endl;
+    goliath.afficherEtat(); cout << endl;
+
     goliath.attaquer(david);
     david.boirPotion(20);
     goliath.attaquer(david);
     david.attaquer(goliath);
-
-    goliath.changerArme("Double hache", 40);
+    goliath.changerArme("Double Hache", 40);
     goliath.attaquer(david);
 
-    cout << "David" << endl;
-    david.afficherEtat();
-    cout << endl << "Goliath" << endl;
-    goliath.afficherEtat();
+    cout << endl; david.afficherEtat(); cout << endl;
+    goliath.afficherEtat(); cout << endl;
 
     david.boirPotion(20);
     david.changerArme("Sabre du destin", 35);
     david.attaquer(goliath);
 
-    cout << endl << "David" << endl;
-    david.afficherEtat();
-    cout << endl << "Goliath" << endl;
-    goliath.afficherEtat();
+    cout << endl; david.afficherEtat(); cout << endl;
+    goliath.afficherEtat(); cout << endl;
 
     goliath.boirPotion(50);
     david.attaquer(goliath);
     goliath.attaquer(david);
     david.attaquer(goliath);
 
-    cout << endl << "David" << endl;
-    david.afficherEtat();
-    cout << endl << "Goliath" << endl;
-    goliath.afficherEtat();
+    cout << endl; david.afficherEtat(); cout << endl;
+    goliath.afficherEtat(); cout << endl;
 
     goliath.attaquer(david);
     david.attaquer(goliath);
 
-    cout << endl << "David" << endl;
-    david.afficherEtat();
-    cout << endl << "Goliath" << endl;
-    goliath.afficherEtat();
+    cout << endl; david.afficherEtat(); cout << endl;
+    goliath.afficherEtat(); cout << endl;
 
     return 0;
 }

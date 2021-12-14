@@ -39,19 +39,21 @@ class Personnage
     public :
 
     Personnage();   //Contructeur par defaut
-    Personnage(std::string nomArme, int degatsArme);    //Contructeur
-    Personnage(int vie, int mana);  //Constructeur
+    Personnage(std::string nom, std::string nomArme, int degatsArme);    //Contructeur
+    Personnage(std::string nom, int vie, int mana);  //Constructeur
     void recevoirDegats(int nbDegats);
     void attaquer(Personnage &cible);
     void boirPotion(int quantitePotion);
     void changerArme(std::string nomNouvelleArme, int degatsNouvelleArme);
     bool estVivant();
     void afficherEtat() const;
+    void enVie() const;
 
     private :
 
     int m_vie;
     int m_mana;
+    std::string m_nom;
     Arme m_arme;
 /*
     La classe perssonage à donc un attribut m_arme de la classe Arme

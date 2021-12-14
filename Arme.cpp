@@ -4,7 +4,7 @@ using namespace std;
 
 Arme::Arme()
 {
-    m_nom = "Epee rouille";
+    m_nom = "Epee emousse";
     m_degats = 10;
 }
 
@@ -30,6 +30,11 @@ affin de l'uttiliser ou de l'afficher, sa valeur de retour sera la valeur de la 
 et sera considéré comme constante, comme on ne modifier pas ma valeur qui est private
 Par convention on commence l'asseseur par "get" (recuperer en anglais).
 */
+void Arme::afficherSuite() const
+{
+    cout << m_nom << " (" << m_degats << ")";
+}
+
 int Arme::getDegats() const
 {
     return m_degats;
